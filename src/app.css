@@ -4,11 +4,12 @@
 
 :root {
   --radius: 0.625rem;
-  --background-color: #3d155c;
+  --background-image: url('dist/purplebg.jpeg');
 
 }
 
 body {
+  background-image: url('dist/purplebg.jpeg');
   display: flex;
   place-items: center;
   min-width: 320px;
@@ -23,8 +24,10 @@ p {
 h1 {
   font-size: 80px;
   font-family: "barbie";
-  color: #75568e;
-  text-shadow: 4px 3px #e8d3fa;
+  color: #370361;
+  text-shadow: 4px 3px #ad9abf;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(92, 64, 112);
 }
 
 h2 {
@@ -69,6 +72,6 @@ h2 {
 @media (prefers-color-scheme: light) {
   :root {
     color: #000000;
-    background-color: #1b002f;
+    background-image: url('dist/purplebg.jpeg');
   }
 }
