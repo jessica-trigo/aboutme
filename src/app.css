@@ -4,7 +4,8 @@
 
 :root {
   --radius: 0.625rem;
-  --background: url("public/purplebg.jpeg");
+  --background-color: #3d155c;
+
 }
 
 body {
@@ -22,7 +23,7 @@ p {
 h1 {
   font-size: 80px;
   font-family: "barbie";
-  color: #3d155c;
+  color: #75568e;
   text-shadow: 4px 3px #e8d3fa;
 }
 
@@ -68,6 +69,6 @@ h2 {
 @media (prefers-color-scheme: light) {
   :root {
     color: #000000;
-    background-image: url("public/purplebg.jpeg");
+    background-color: #1b002f;
   }
 }
