@@ -24,10 +24,10 @@ p {
 h1 {
   font-size: 80px;
   font-family: "barbie";
-  color: #370361;
-  text-shadow: 4px 3px #ad9abf;
+  color: #ebd3ff;
+  text-shadow: 3px 3px #280c42;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: rgb(92, 64, 112);
+  -webkit-text-stroke-color: rgb(52, 0, 90);
 }
 
 h2 {
