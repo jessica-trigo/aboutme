@@ -13,7 +13,6 @@ body {
   min-width: 320px;
   min-height: 100vh;
   overflow: hidden;
-  cursor: url("/cursors/pixel-cursor.png"), auto;
 }
 
 p {
