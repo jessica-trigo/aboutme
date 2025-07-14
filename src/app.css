@@ -13,6 +13,11 @@ body {
   min-width: 320px;
   min-height: 100vh;
   overflow: hidden;
+  cursor: url("/cursors/pixel-cursor.png"), auto;
+}
+
+p {
+  font-family: "Lucida Console", Courier, monospace;
 }
 
 h1 {
@@ -27,6 +32,38 @@ h2 {
   font-family: "barbie";
   color: #3d155c;
   text-shadow: 4px 3px #e8d3fa;
+}
+
+.pixel-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.pixel-scrollbar::-webkit-scrollbar-track {
+  background: #d8b4fe; /* Light purple */
+  image-rendering: pixelated;
+}
+
+.pixel-scrollbar::-webkit-scrollbar-thumb {
+  background: repeating-linear-gradient(
+    45deg,
+    #7e22ce,
+    #7e22ce 2px,
+    #a855f7 2px,
+    #a855f7 4px
+  );
+  border-radius: 0;
+  image-rendering: pixelated;
+  border: 2px solid #6b21a8;
+}
+
+.pixel-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: repeating-linear-gradient(
+    45deg,
+    #a855f7,
+    #a855f7 2px,
+    #c084fc 2px,
+    #c084fc 4px
+  );
 }
 
 @media (prefers-color-scheme: light) {
